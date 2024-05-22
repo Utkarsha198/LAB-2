@@ -1,0 +1,127 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+
+html {
+    font-size: 100%;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    background: #111;
+    background-image: url("../images/how-much.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h1 em {
+    font-style: normal;
+    font-family: "Arial Black";
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 2.1rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.6;  /* Adjusted leading for better readability */
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    hyphens: auto;
+}
+
+body {
+    min-width: 320px;
+    max-width: 800px;  /* Adjusted to improve measure */
+    margin: 0 auto;
+    background: #eee;
+    padding: 20px;  /* Added padding for more white space */
+}
+
+header {
+    background: #5C8096;
+    padding: 30px;  /* Reduced padding for smaller screens */
+    text-shadow: 0 1px 1px #A2C0CE;
+}
+
+header p {
+    font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    font-size: 2.4rem;
+    margin-top: 0;
+}
+
+section {
+    padding: 20px 30px;  /* Adjusted padding for better white space */
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+footer h3 {
+    font-size: 1.4em;
+}
+
+footer p, footer small {
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    body {
+        padding: 10px;
+    }
+    section {
+        padding: 10px 20px;
+    }
+    footer {
+        padding: 20px;
+    }
+}
